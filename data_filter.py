@@ -1,5 +1,4 @@
 import pandas as pd
-from pycaret.classification import *
 import matplotlib.pyplot as plt
 
 def data_preprocess_filter_data(start_year:int, end_year:int, filtered_feature:str, filtered_value:str):
