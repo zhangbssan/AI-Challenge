@@ -1,9 +1,6 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 from pytorch_forecasting import TimeSeriesDataSet
 from pytorch_forecasting.models import TemporalFusionTransformer
-import lightning.pytorch as pl
-from lightning.pytorch.callbacks import ModelCheckpoint
 import data_filter
 from fastapi import FastAPI, Request
 from pydantic import BaseModel
