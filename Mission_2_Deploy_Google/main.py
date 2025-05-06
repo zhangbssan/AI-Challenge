@@ -8,7 +8,9 @@ import numpy as np
 # import lightning.pytorch as pl
 
 app = FastAPI()
-model = TemporalFusionTransformer.load_from_checkpoint("checkpoints/tft-epoch=90-train_loss=4.6115.ckpt")
+model_1 = TemporalFusionTransformer.load_from_checkpoint("checkpoints/tft-epoch=994-train_loss=0.9413.ckpt")
+model_2 = TemporalFusionTransformer.load_from_checkpoint("checkpoints/tft-epoch=992-train_loss=0.9608.ckpt")
+model_3 = TemporalFusionTransformer.load_from_checkpoint("checkpoints/tft-epoch=954-train_loss=0.9815.ckpt")
 
 class Item(BaseModel):
     # time_idx: int
@@ -55,8 +57,11 @@ def predict(request: Item):
     time_varying_unknown_reals=["WERT"]
 )
     dataloader = dataset.to_dataloader(train=False, batch_size=1)
-    prediction = model.predict(dataloader, mode="prediction", return_index=False, return_x=False)
-    final = int(prediction.item())
+    prediction_1 = model_1.predict(dataloader, mode="prediction", return_index=False, return_x=False)
+    prediction_2 = model_2.predict(dataloader, mode="prediction", return_index=False, return_x=False)
+    prediction_3 = model_3.predict(dataloader, mode="prediction", return_index=False, return_x=False)
+    prediction = (prediction_1.item() + prediction_2.item() + prediction_3.item()) / 3
+    final = int(prediction)
     return {"prediction": final}
     # return {"prediction":time}
 
