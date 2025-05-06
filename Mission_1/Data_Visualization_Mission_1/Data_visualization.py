@@ -14,7 +14,7 @@ def data_preprocess_visualizaiton_total(df:pd.DataFrame):
     st.dataframe(df_sum_catagory)
     # Plotting
     st.title("📊 Total Accidents Data Visualization with Values")
-    st.subheader("Bar Chart of Total Accidents")
+    st.subheader("Histogramm of Total Accidents")
     fig, ax = plt.subplots()
     bars=ax.bar(df_sum_catagory['MONATSZAHL'], df_sum_catagory['WERT'], color='skyblue')
     # Add text labels on top of the bars
