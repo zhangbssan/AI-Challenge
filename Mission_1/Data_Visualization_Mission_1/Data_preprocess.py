@@ -18,5 +18,4 @@ def data_preprocess_filter_data(start_year:int, end_year:int, filtered_feature:s
      # Save the filtered DataFrame to a CSV file
     df.to_csv(file_name, index=False)
     return df
-    #'AUSPRAEGUNG'
-    #'insgesamt'
+    
