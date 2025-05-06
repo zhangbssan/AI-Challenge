@@ -3,7 +3,7 @@ from pycaret.classification import *
 import matplotlib.pyplot as plt
 import streamlit as st
 
-def data_preprocess_visualizaiton(df:pd.DataFrame):
+def data_preprocess_visualizaiton_total(df:pd.DataFrame):
    
     df = df[df['MONAT'] == 'Summe']
 
