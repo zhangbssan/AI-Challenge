@@ -14,3 +14,109 @@
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
 2025-05-03 13:28:58,158:WARNING:
 'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:04:00,288:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:04:00,288:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:04:00,289:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:04:00,289:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:04:30,671:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:04:30,672:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:04:30,672:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:04:30,672:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:05:21,578:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:05:21,579:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:05:21,579:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:05:21,579:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:12:00,986:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:12:00,986:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:12:00,986:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:12:00,986:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:12:42,312:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:12:42,312:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:12:42,312:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:12:42,312:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:13:35,806:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:13:35,806:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:13:35,806:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:13:35,806:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:13:36,805:WARNING:/Users/baoshuangzhang/Desktop/AI Challenge/AI_Challenge/lib/python3.9/site-packages/streamlit/elements/pyplot.py:176: UserWarning: Glyph 128200 (\N{CHART WITH UPWARDS TREND}) missing from current font.
+  fig.savefig(image, **kwargs)
+
+2025-05-06 12:13:36,805:WARNING:/Users/baoshuangzhang/Desktop/AI Challenge/AI_Challenge/lib/python3.9/site-packages/streamlit/elements/pyplot.py:176: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from current font.
+  fig.savefig(image, **kwargs)
+
+2025-05-06 12:13:36,805:WARNING:/Users/baoshuangzhang/Desktop/AI Challenge/AI_Challenge/lib/python3.9/site-packages/streamlit/elements/pyplot.py:176: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from current font.
+  fig.savefig(image, **kwargs)
+
+2025-05-06 12:13:36,805:WARNING:/Users/baoshuangzhang/Desktop/AI Challenge/AI_Challenge/lib/python3.9/site-packages/streamlit/elements/pyplot.py:176: UserWarning: Glyph 36235 (\N{CJK UNIFIED IDEOGRAPH-8D8B}) missing from current font.
+  fig.savefig(image, **kwargs)
+
+2025-05-06 12:13:36,805:WARNING:/Users/baoshuangzhang/Desktop/AI Challenge/AI_Challenge/lib/python3.9/site-packages/streamlit/elements/pyplot.py:176: UserWarning: Glyph 21183 (\N{CJK UNIFIED IDEOGRAPH-52BF}) missing from current font.
+  fig.savefig(image, **kwargs)
+
+2025-05-06 12:13:36,805:WARNING:/Users/baoshuangzhang/Desktop/AI Challenge/AI_Challenge/lib/python3.9/site-packages/streamlit/elements/pyplot.py:176: UserWarning: Glyph 65288 (\N{FULLWIDTH LEFT PARENTHESIS}) missing from current font.
+  fig.savefig(image, **kwargs)
+
+2025-05-06 12:13:36,805:WARNING:/Users/baoshuangzhang/Desktop/AI Challenge/AI_Challenge/lib/python3.9/site-packages/streamlit/elements/pyplot.py:176: UserWarning: Glyph 65289 (\N{FULLWIDTH RIGHT PARENTHESIS}) missing from current font.
+  fig.savefig(image, **kwargs)
+
+2025-05-06 12:14:20,699:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:14:20,700:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:14:20,700:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:14:20,700:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:14:21,737:WARNING:/Users/baoshuangzhang/Desktop/AI Challenge/AI_Challenge/lib/python3.9/site-packages/streamlit/elements/pyplot.py:176: UserWarning: Glyph 128200 (\N{CHART WITH UPWARDS TREND}) missing from current font.
+  fig.savefig(image, **kwargs)
+
+2025-05-06 12:14:21,737:WARNING:/Users/baoshuangzhang/Desktop/AI Challenge/AI_Challenge/lib/python3.9/site-packages/streamlit/elements/pyplot.py:176: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from current font.
+  fig.savefig(image, **kwargs)
+
+2025-05-06 12:14:21,737:WARNING:/Users/baoshuangzhang/Desktop/AI Challenge/AI_Challenge/lib/python3.9/site-packages/streamlit/elements/pyplot.py:176: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from current font.
+  fig.savefig(image, **kwargs)
+
+2025-05-06 12:14:21,737:WARNING:/Users/baoshuangzhang/Desktop/AI Challenge/AI_Challenge/lib/python3.9/site-packages/streamlit/elements/pyplot.py:176: UserWarning: Glyph 36235 (\N{CJK UNIFIED IDEOGRAPH-8D8B}) missing from current font.
+  fig.savefig(image, **kwargs)
+
+2025-05-06 12:14:21,737:WARNING:/Users/baoshuangzhang/Desktop/AI Challenge/AI_Challenge/lib/python3.9/site-packages/streamlit/elements/pyplot.py:176: UserWarning: Glyph 21183 (\N{CJK UNIFIED IDEOGRAPH-52BF}) missing from current font.
+  fig.savefig(image, **kwargs)
+
+2025-05-06 12:14:21,737:WARNING:/Users/baoshuangzhang/Desktop/AI Challenge/AI_Challenge/lib/python3.9/site-packages/streamlit/elements/pyplot.py:176: UserWarning: Glyph 65288 (\N{FULLWIDTH LEFT PARENTHESIS}) missing from current font.
+  fig.savefig(image, **kwargs)
+
+2025-05-06 12:14:21,738:WARNING:/Users/baoshuangzhang/Desktop/AI Challenge/AI_Challenge/lib/python3.9/site-packages/streamlit/elements/pyplot.py:176: UserWarning: Glyph 65289 (\N{FULLWIDTH RIGHT PARENTHESIS}) missing from current font.
+  fig.savefig(image, **kwargs)
+
+2025-05-06 12:15:37,498:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:15:37,498:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:15:37,498:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 12:15:37,498:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.

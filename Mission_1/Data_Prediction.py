@@ -7,7 +7,8 @@ from pytorch_forecasting import TimeSeriesDataSet
 from pytorch_forecasting.models import TemporalFusionTransformer
 import lightning.pytorch as pl
 from lightning.pytorch.callbacks import ModelCheckpoint
-
+# This is a time series prediction model using the Temporal Fusion Transformer (TFT) from PyTorch Forecasting
+# Usually, the dataset should be split into a training set and a validation set, but I feel that the dataset is too small, so I didn't split it
 # Load the data
 data = pd.read_csv('monatszahlen_2000-2020.csv')
 df = pd.DataFrame(data, columns=['MONATSZAHL', 'AUSPRAEGUNG', 'JAHR', 'MONAT', 'WERT'])
@@ -32,12 +33,12 @@ dataset = TimeSeriesDataSet(
     target='WERT',
     group_ids=["MONATSZAHL"],
     max_encoder_length=30,
-    max_prediction_length=7,
+    max_prediction_length=5,
     time_varying_known_reals=["time_idx"],
     time_varying_unknown_reals=["WERT"]
 )
 
-dataloader = dataset.to_dataloader(train=True, batch_size=64)
+dataloader = dataset.to_dataloader(train=True, batch_size=16, shuffle=True)
 
 model = TemporalFusionTransformer.from_dataset(dataset, learning_rate=1e-3)
 
