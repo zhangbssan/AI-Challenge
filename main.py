@@ -5,6 +5,7 @@ import data_filter
 from fastapi import FastAPI, Request
 from pydantic import BaseModel
 import numpy as np
+# import lightning.pytorch as pl
 
 app = FastAPI()
 model = TemporalFusionTransformer.load_from_checkpoint("checkpoints/tft-epoch=90-train_loss=4.6115.ckpt")
@@ -25,7 +26,10 @@ df = df[df['MONATSZAHL'] == 'Alkoholunfälle']
 df = df.sort_values(by=["MONAT"])
 df =df.reset_index(drop=True)
 df['time_idx']=df.index
-
+@app.get("/")
+def read_root():
+    return {"Hello": "TUM"}
+    
 @app.post("/predict")
 def predict(request: Item):
     # json_data = await request.json()
@@ -55,3 +59,7 @@ def predict(request: Item):
     final = int(prediction.item())
     return {"prediction": final}
     # return {"prediction":time}
+
+
+
+
