@@ -54,7 +54,7 @@ checkpoint_callback = ModelCheckpoint(
 # trainer = Trainer(max_epochs=10, accelerator="auto")
 trainer = pl.Trainer(
     callbacks=[checkpoint_callback],
-    max_epochs=100,
+    max_epochs=1000,
     accelerator="cpu",
     enable_model_summary=True,
     limit_train_batches=50,  # coment in for training, running valiation every 30 batches
