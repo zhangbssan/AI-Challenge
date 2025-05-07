@@ -15,10 +15,10 @@ This project utilizes the **Temporal Fusion Transformer (TFT)** model for time s
 
 ### Mission_2_Deploy_Google
 - The top three models from `Mission_1` were **deployed on Google Cloud** for inference and demonstration purposes.
-
+- The deployment endpoint is: “ https://mission2-783353749415.us-central1.run.app/predict“。 **NOTE** Only POST can access the prediction result, please following the **Useage Example**
 ## 🎯 Objective
 
-To demonstrate the effectiveness of the Temporal Fusion Transformer in time series forecasting by predicting traffic accident counts for January 2021 based on historical data.
+To demonstrate the effectiveness of the Temporal Fusion Transformer in time series forecasting by predicting traffic accident counts from February 2000 to **January 2021** based on historical data.
 
 ## 🔧 Usage Example
 
@@ -28,3 +28,9 @@ To make a prediction for January 2021 using the deployed model, use the followin
 curl -X POST "https://mission2-783353749415.us-central1.run.app/predict" \
      -H "Content-Type: application/json" \
      -d '{"year":"2021","month":"01"}'
+
+In general you can replace the value of "year" from 2000 to 2021, and the value of "month" from 01 to 12:
+```bash
+curl -X POST "https://mission2-783353749415.us-central1.run.app/predict" \
+     -H "Content-Type: application/json" \
+     -d '{"year":"XXXX","month":"XX"}'
