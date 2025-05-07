@@ -15,7 +15,8 @@ This project utilizes the **Temporal Fusion Transformer (TFT)** model for time s
 
 ### Mission_2_Deploy_Google
 - The top three models from `Mission_1` were **deployed on Google Cloud** for inference and demonstration purposes.
-- The deployment endpoint is: “ https://mission2-783353749415.us-central1.run.app/predict“。 **NOTE** Only POST can access the prediction result, please following the **Useage Example**
+- The deployment endpoint is: “ https://mission2-783353749415.us-central1.run.app/predict“.
+- **NOTE** Only POST can access the prediction result, please following the **Useage Example**
 ## 🎯 Objective
 
 To demonstrate the effectiveness of the Temporal Fusion Transformer in time series forecasting by predicting traffic accident counts from February 2000 to **January 2021** based on historical data.
