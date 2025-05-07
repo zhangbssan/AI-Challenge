@@ -30,6 +30,7 @@ curl -X POST "https://mission2-783353749415.us-central1.run.app/predict" \
      -d '{"year":"2021","month":"01"}'
 
 In general you can replace the value of "year" from 2000 to 2021, and the value of "month" from 01 to 12:
+
 ```bash
 curl -X POST "https://mission2-783353749415.us-central1.run.app/predict" \
      -H "Content-Type: application/json" \
